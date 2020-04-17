@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Image Gallery</h2>
+<h4>photos of bicycle.</h4>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image51.jpg">
+      <img src="image1.jpg" alt="" width="600" height="400">
+    </a>
+    <div class="desc">Ridley Cito (24) Blue</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image2.jpg">
+      <img src="image2.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Ridley Cordis 2</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image3.jpg">
+      <img src="image3.jpg" alt="" width="600" height="400">
+    </a>
+    <div class="desc">Ridley Cordis CX1</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image4.jpg">
+      <img src="image4.jpg" alt="" width="600" height="400">
+    </a>
+    <div class="desc">Ridley Cordis CX3</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image5.jpg">
+      <img src="image5.jpg" alt="" width="600" height="400">
+    </a>
+    <div class="desc">Hercules Streetcat 16</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image6.jpg">
+      <img src="image6.jpg" alt="" width="600" height="400">
+    </a>
+    <div class="desc">flying pigeon</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image7.jpg">
+      <img src="image7.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Hercules Ambush 20</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image8.jpg">
+      <img src="image8.jpg" alt="" width="600" height="400">
+    </a>
+    <div class="desc">Hero Quicker 20T</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+
+
+</body>
+</html>

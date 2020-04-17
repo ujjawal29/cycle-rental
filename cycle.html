@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.bicycle-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="bicycle-section">
+  
+  <h1>bicycle-section</h1>
+  <p>PU-RIDE</p>
+  <p>it keeps us active</p>
+  
+</div>
+
+<h2 style="text-align:center">cycle list</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="image1.jpg" alt="ridley cito" style="width:100%">
+      <div class="container">
+        <h2>Ridley Cito (24) Blue </h2>
+        <p class="title">blue color</p>
+        <p>MRP : 30 / DAY</p>
+        <p></p>
+        <p><button class="button">book</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="image2.jpg" alt="Ridley Cordis 2 " style="width:100%">
+      <div class="container">
+        <h2>Ridley Cordis 2 </h2>
+        <p class="title">red and blue</p>
+        <p>MRP : 28 / DAY</p>
+        <p><button class="button">book</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="image3.jpg" alt="Ridley Cordis CX1 " style="width:100%">
+      <div class="container">
+        <h2>Ridley Cordis CX1 </h2>
+        <p class="title">red and blue</p>
+        <p>MRP : 35 / DAY</p>
+        <p><button class="button">Book</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="column">
+    <div class="card">
+      <img src="image4.jpg" alt="Ridley Cordis CX3" style="width:100%">
+      <div class="container">
+        <h2>Ridley Cordis CX3 </h2>
+        <p class="title">black and blue</p>
+        <p>MRP : 35 / DAY</p>
+        <p><button class="button">Book</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="column">
+    <div class="card">
+      <img src="image5.jpg" alt="Hercules Streetcat 16 " style="width:100%">
+      <div class="container">
+        <h2>Hercules Streetcat 16</h2>
+        <p class="title">black</p>
+        <p>MRP : 35 / DAY</p>
+        <p><button class="button">Book</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="column">
+    <div class="card">
+      <img src="image7.jpg" alt="Hercules Ambush 20 " style="width:100%">
+      <div class="container">
+        <h2>Hercules Ambush 20 </h2>
+        <p class="title">red and blue</p>
+        <p>MRP : 35 / DAY</p>
+        <p><button class="button">Book</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="column">
+    <div class="card">
+      <img src="image6.jpg" alt=" flying pigeon" style="width:100%">
+      <div class="container">
+        <h2>flying pigeon</h2>
+        <p class="title">gray </p>
+        <p>MRP : 25 / DAY</p>
+        <p><button class="button">Book</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="column">
+    <div class="card">
+      <img src="image10.jpg" alt="Redline Bikes MX BMX Race Bike " style="width:100%">
+      <div class="container">
+        <h2>Redline Bikes MX BMX Race Bike </h2>
+        <p class="title">black</p>
+        <p>MRP : 50 / DAY</p>
+        <p><button class="button">Book</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="column">
+    <div class="card">
+      <img src="image8.jpg" alt="Hero Quicker 20T" style="width:100%">
+      <div class="container">
+        <h2>Hero Quicker 20T</h2>
+        <p class="title">red and blue</p>
+        <p>MRP : 35 / DAY</p>
+        <p><button class="button">Book</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="column">
+    <div class="card">
+      <img src="image9.jpg" alt="Ridley Cordis CX5 " style="width:100%">
+      <div class="container">
+        <h2>Ridley Cordis CX5 </h2>
+        <p class="title">black</p>
+        <p>MRP : 29 / DAY</p>
+        <p><button class="button">Book</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="column">
+    <div class="card">
+      <img src="image11.jpg" alt="Mach City iBike Single Speed" style="width:100%">
+      <div class="container">
+        <h2>Mach City iBike Single Speed </h2>
+        <p class="title">red and blue</p>
+        <p>MRP : 35 / DAY</p>
+        <p><button class="button">Book</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="column">
+    <div class="card">
+      <img src="image12.jpg" alt="Brooks MotoCub 14 " style="width:100%">
+      <div class="container">
+        <h2>Brooks MotoCub 14 </h2>
+        <p class="title">black</p>
+        <p>MRP : 38 / DAY</p>
+        <p><button class="button">Book</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="column">
+    <div class="card">
+      <img src="image16.jpg" alt="Kross Blue Bell 20 " style="width:100%">
+      <div class="container">
+        <h2>Kross Blue Bell 20 </h2>
+        <p class="title">pink</p>
+        <p>MRP : 15 / DAY</p>
+        <p><button class="button">Book</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
